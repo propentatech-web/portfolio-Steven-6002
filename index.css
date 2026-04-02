@@ -1,0 +1,115 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+:root{
+    --background-color
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:20px;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+     gap: 40px;
+     
+}
+/* le button contact  */
+.contact{
+    margin-right: 50px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+}
+.btn:hover{
+    margin-left: 10;
+}
+
+
+.logo{
+    color: white;
+    text-shadow: 20px 10px 10px 0px;
+    text-decoration: line-through;
+    margin-left: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* webkit c'est un prefix du navigateur pou applique le background uniquement sur le text*/
+span{
+    background: linear-gradient(90deg, #ff00cc,#ff4d6d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.a{
+    text-decoration: none;
+    color: white;
+}
+/* radial gradient pour l'effet circlr purple de cote la*/
+body{
+    background: radial-gradient(circle at left,#ff00cc33, transparent 40%),
+    radial-gradient(circle at right, #ff00cc33,transparent 40%), #000;
+   color: white;
+   font-family: 'poppins', sans-serif;
+}
+.hero-text{
+    height: 90vh;
+    flex: 1;
+}
+.text{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.name{
+    font-size: 60px;
+}
+.names{
+    font-size: 60px;
+    line-height: 1.2;
+}
+.p{
+    font-size: 40px;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+
+}
+.img-box{
+    position: relative;/* pour eviter le bug l'on de l'utilisation de before*/
+    border-radius: 20px;
+    overflow: hidden;
+    flex: 1;
+    height: 80vh;
+    width: 30vh;
+}
+.img-box::before/*before pour ajoute un element avant le contenu sans ecrire le html*/{
+    content: "";/* obligatoire pour que before existe*/
+    position: absolute;
+inset: -3px;
+background: linear-gradient(45deg,#ff00cc,#ff4d6d);
+filter: blur(20px);
+z-index: -1;
+margin-top: 70px;
+margin-left: 70px;
+margin-right: 100px;
+margin-bottom: 20px;
+}
+.img-box img{
+    border-radius: 20px;
+    display: block;
+
+}
+.btn{
+    background: linear-gradient(90deg , #ff00cc,#ff4d6d);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    color: white;
+    margin-top: 20px;
+}
