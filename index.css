@@ -26,6 +26,9 @@ ul{
     border-radius: 20px;
     padding: 10px 20px;
     color: white;
+
+background: linear-gradient(90deg , #ff00cc,#ff4d6d);
+    border: none;
 }
 .btn:hover{
     margin-left: 10;
@@ -114,6 +117,8 @@ margin-bottom: 70px;
     margin-top: 20px;
     
 }
+.btns:hover{
+}
 .project{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -130,8 +135,12 @@ margin-bottom: 70px;
     transform: translateY(-10px);
     box-shadow: 0 0 20px #ff00cc55;
 }
-.myportfolio{
+.h2{
     margin-bottom: 50px;
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+
 }
 .project-card img{
     transition: 0.3s;
@@ -144,5 +153,33 @@ margin-bottom: 70px;
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
-    font-size: 40px;
+    font-size: 20px;
+    font-awe
+}
+.Services-container{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    
+}
+.service-card{
+    background: #111;
+    padding: 30px;
+    border-radius: 100px;
+    width: 300px;
+    align-items: center;
+    transition: transform 0,5s box-shadow 0.5s;
+    cursor: pointer;
+}
+.service-card:hover{
+    transform: scale(1.05);
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px #ff00cc;
+}
+.service-card p{
+    font-size: 1rem;
+    line-height: 2;
+}
+.service-card h3{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
 }
