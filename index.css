@@ -62,6 +62,12 @@ span{
 background: linear-gradient(90deg , aqua,#ff4d6d);
     border: none;
 }/* radial gradient pour l'effet circlr purple de cote la*/
+.lien{
+    text-align: none;
+    color: #ccc;
+    background: linear-gradient(90deg , aqua,#ff4d6d);
+    border: none;
+}
 body{
     background: radial-gradient(circle at left,#ff00cc33, transparent 40%),
     radial-gradient(circle at right, #ff00cc33,transparent 40%), #000;
@@ -259,4 +265,15 @@ margin-bottom: 70px;
 .about{
     color:#fff;
     font-size: 30px;
+}
+.list{
+    margin-top: 70px;
+    
+    padding: 0px;
+}
+.icone{
+    display: flex;
+    justify-content: center;
+    line-height: 10px;
+
 }

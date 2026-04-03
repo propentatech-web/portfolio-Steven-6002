@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+
+}
+body{
+    background-color: black;}
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 60px;
+        margin-left: 40px;
+    color: white;
+    padding-left: 70px;
+    margin-top: 110px;
+    margin-bottom: 50px;
+    }
+    .div{
+        justify-content: center;
+        align-content: center;
+    }
+.p{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    color:green;
+    font-size: 30px;
+    padding-left:30% ;
+font-size: 50px;
+    margin-bottom: 40px;
+
+
+}
+#p{
+    justify-content: center;
+    align-content: center;
+    margin-left: 44%;
+    margin-right: 38%;
+    color: wheat;
+    border: 1px white solid;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#p:hover{
+    background-color: aqua;
+    transition: 1s;
+}
