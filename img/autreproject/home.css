@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    min-width: 400hv;
+}
+body{
+ font-family: Arial, Helvetica, sans-serif;
+animation: apparition 2.5s ease-out;
+background-color: rgba(0,0,0,0.8)}
+@keyframes apparition {  
+    from{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 9px,9px 10px;
+    font-weight: bolder;
+     
+}
+.a:hover{
+    transition: 0.5s;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: gold;
+    border-radius:12px ;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    color: white;
+    border: 1px solid whitesmoke;
+    animation: apparition 2.5s ease-out;
+    position: ;
+}
+@keyframes apparition { 
+    from{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+
+}
+.nav{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 50px;
+a
+
+}
+
+#home{
+    margin-left:40px ;
+}
+.text{
+    color: white;
+    margin-top: 150px;
+    margin-left: 50px ;
+    z-index: 0px;
+    flex: 1;
+}
+.logo{
+    margin-right: 20px;
+}
+#name{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    animation: apparition 2.5s ease-out;
+    
+}
+@keyframes apparition { 
+    from{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to{
+        opacity: 2;
+        transform: translateY(0);
+    }
+    
+}
+button{
+    margin-top: 40px ;
+    font-size: 10px;
+    border: 1px white solid;
+    padding: 15px;
+    margin-right: 87%;
+    border-radius: 60px;
+    background-color: black;
+    color: white;
+}
+button:hover{
+    background-color: gold;
+    transition: 0.5s;
+}
+.image{
+    flex: 1;
+    position: cover;
+    
+}
+.section{
+    display: flex;
+    flex-direction: row;
+}

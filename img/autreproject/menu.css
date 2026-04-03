@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vw;/*vw pour avoir 100% de vue sur le code ca depend de largeur de kl'ecran*/
+    width: 100vw;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+    align-items: center;
+justify-content: space-between;
+color: white;
+padding: 12px 0px 12px opx;
+}
+#button{
+    background-color:orange ;
+    border: 2px;
+    align-items: end;
+    border-radius: 12px;
+    padding: 12px;
+    color: white;
+
+}
+#menu{
+   align-items:center; 
+   display : flex;
+   list-style: none;
+   gap: 10px;
+   color: white;
+}
+a{
+    text-decoration: none;
+}
+.image{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

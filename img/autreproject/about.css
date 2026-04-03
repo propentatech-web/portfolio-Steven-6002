@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: blanchedalmond;
+}
+.section{
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 50%;
+
+
+animation: apparition 2.5s ease-out;
+    
+}
+@keyframes apparition { 
+    from{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to{
+        opacity: 2;
+        transform: translateY(0);
+    }
+    
+}
+h1{
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+h1:hover{
+    color: rgb(27, 43, 136);
+    transition: 1s;
+    font-size: 70px;
+    text-decoration: overline;
+
+}
+#p{
+    font-family: Arial, Helvetica, sans-serif;
+letter-spacing: 2px;
+word-spacing: 5px;
+text-shadow: 1px ;
+}
+#p:hover{
+    color: green ;
+    transition: 1s;
+    font-size: 20px;
+}
+#bouton{
+    text-decoration: none;
+    margin-top: 40px;
+margin-right: 30px;
+color:white;
+background-color: black;
+margin-right: 80%;
+padding: 5px;
+border-radius: 12px;
+}
+a{
+    text-decoration: none;
+color: white;
+
+}
+
+#bouton:hover{
+    background-color: aqua;
+    transition: 1s;
+    padding: 20px;
+
+}
+img{
+    float: right;
+    position: top right;
+    border: 1px  solid;
+    background-color: black;
+    border-radius: 200px;
+    padding: 30px;
+}
+img:hover{
+    background-color: aliceblue;
+    transition: 1s;
+    padding: 30px;
+    border: 1px solid ;
+    border-radius: 200px;
+}
