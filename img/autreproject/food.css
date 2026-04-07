@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vw;/*vw pour avoir 100% de vue sur le code ca depend de largeur de kl'ecran*/
+    width: 100vw;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   background-color: blueviolet;
+   list-style: none;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    gap: 35px;
+    
+}
+a{
+    text-decoration: none;
+     color: black;
+}
+.inscription{
+    margin-right: 49px;
+    border: 1px solid black;
+    background-color: green;
+    border-radius: 60px;
+     padding: 8px;
+
+}
+#welcome{
+    background-color: aqua;
+    margin: 400px
+    align-items: center;
+    font-style: oblique;
+    font-size: 100px;
+    animation: apparition 2.5s ease-out;
+}
+@keyframes apparition { 
+    from{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+#menu{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+margin-top: 25px;
+border-radius: 12px;
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+transition: transform 0.3s;
+border: 5px ridge white;
+outline: 1px solid #add;
+text-shadow: 3px 3px 4px #444;
+}
+#food{
+    border-radius: 12px;
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+transition: transform 0.3s;
+border: 5px solid white;
+outline: 1px solid #add;
+}
+.accueil{
+    background-color: olive;
+}
+.p{
+    border: 1px solid white;
+    padding: 30px ;
+    margin: 50px;
+    background-color:rgb(31, 134, 129) ;
+}
+
+h2{
+    text-shadow: 0px 0px 3px teal;
+}
+.apropos{
+    width: 500px;
+    height: 450px;
+    z-index: 100;
+    overflow: auto;
+}
